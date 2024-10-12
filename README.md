@@ -11,7 +11,7 @@ A simple and elegant calculator application built using HTML, CSS, and JavaScrip
 
 ## Demo
 
-[Live Demo](https://your-live-demo-url.com)
+[Live Demo](https://soumyaexe.github.io/Calculator/)
 
 ## Screenshots
 
