@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator App By Soumya</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="container">
+            <section class="screen">
+            <p class="calculate">99+99</p>
+            <p class="result">= 198</p>
+        </section>
+
+        <section class="button-box">
+            <button onclick="tapClear()" class="letter-btn operator-btn">
+                AC
+            </button>
+            <button onclick="tapOperator('%')" class="operator-btn">
+                %
+            </button>
+            <button onclick="tapDel()" class="letter-btn operator-btn">
+                DEL
+            </button>
+            <button onclick="tapOperator('/')" class="operator-btn">
+                &divide;
+            </button>
+            <button onclick="tapNum('7')">
+                7
+            </button>
+            <button onclick="tapNum('8')">
+                8
+            </button>
+            <button onclick="tapNum('9')">
+                9
+            </button>
+            <button onclick="tapOperator('*')" class="operator-btn">
+                &times;
+            </button>
+            <button onclick="tapNum('4')">
+                4
+            </button>
+            <button onclick="tapNum('5')">
+                5
+            </button>
+            <button onclick="tapNum('6')">
+                6
+            </button>
+        </button>
+        <button onclick="tapOperator('-')" class="operator-btn">
+            -
+        </button>
+            <button onclick="tapNum('1')">
+                1
+            </button>
+            <button onclick="tapNum('2')">
+                2
+            </button>
+            <button onclick="tapNum('3')">
+                3
+            </button>
+            <button onclick="tapOperator('+')" class="operator-btn">
+                +
+            </button>
+            <button onclick="tapNum('0')" class="nol-btn">
+                0
+            </button>
+            <button onclick="tapNum('.')">
+                .
+            </button>
+            <button onclick="tapResult()" class="result-btn">
+                =
+            </button>
+        </section>
+        <footer>
+            Made with ❤️ by <a href="https://instagram.com/s0umy4_xd" target="_blank" style="color: white; text-decoration: none;">Soumya</a>
+        </footer>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
